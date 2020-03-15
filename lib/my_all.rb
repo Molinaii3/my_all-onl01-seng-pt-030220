@@ -8,7 +8,8 @@ def my_all?(1,2,3)
 yield (1,2,3[i])
  i += 1 
 end 
- 
+
+my_all?([1,2,3]) {|i| i < 2
  i = 0 
 end 
 
