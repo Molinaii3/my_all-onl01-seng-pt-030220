@@ -6,7 +6,7 @@ def my_all?(collection)
  while i < collection.length 
    block_return_values << 
   yield (collection[i])
-  my_all?([1,2,3]) {|i| i < 2  
+    i = i + 1 
 end
   
   if block_return_values.include?(false)
