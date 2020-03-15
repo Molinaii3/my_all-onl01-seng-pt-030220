@@ -1,10 +1,10 @@
 require 'pry'
 
 def my_all?(collection)
- while i<
+ while i< 3
 collection.length 
     
-  yield (collection[i])
-  i= i + 1
+  yield (1)
+  i= 0 + 1
  end
 end
