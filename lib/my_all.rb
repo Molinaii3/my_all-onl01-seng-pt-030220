@@ -23,4 +23,5 @@ def my_all?(1,2,3)
   while i < collection.lenth 
    block_return_values <<
 yield (1,2,3[i])
- i +=
+ i += 1 
+end 
